@@ -13,6 +13,3 @@ Give a ⭐ if you like this website!
 # Contributors
 
 - [Vadym Makohon](https://github.com/VadymMakohon)
-
-
-<iframe src="https://giphy.com/embed/z7FePlcKJiUOcklAYz" width="480" height="326" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/z7FePlcKJiUOcklAYz">via GIPHY</a></p>
