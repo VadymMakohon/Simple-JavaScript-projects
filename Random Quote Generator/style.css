@@ -1,8 +1,8 @@
 body{
-    background: #06bcc1;
+ background: #06bcc1;
 }
 
-.containar{
+.container{
     border: 1px solid black;
 
     width: 95%;
@@ -26,4 +26,10 @@ body{
 
 .quotes p, .quotes h3{
     font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
 }

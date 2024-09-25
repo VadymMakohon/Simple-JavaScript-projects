@@ -1,0 +1,5 @@
+function generate() {
+    var quotes = {
+
+    }
+}
