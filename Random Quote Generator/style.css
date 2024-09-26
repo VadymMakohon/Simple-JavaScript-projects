@@ -3,11 +3,10 @@ body{
 }
 
 .container{
-    border: 1px solid black;
-
     width: 95%;
     height: 100vh;
     display: flex;
+    text-align: center;
 }
 
 .quotes{
