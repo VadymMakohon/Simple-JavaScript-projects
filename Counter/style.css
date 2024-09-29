@@ -1,0 +1,15 @@
+body{
+    background-color: #fcfc62;
+
+}
+
+.container{
+    border: 1px solid black;
+
+    width: 95%;
+    height: 100hv;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
