@@ -1,0 +1,10 @@
+body{
+    /* overflow: hidden; */
+    background: linear-gradient(#f4f4ed, white);
+}
+
+.container{
+    border: 1px solid black;
+    
+    width: 95;
+}
