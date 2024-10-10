@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="shortcut icon" type="image/png" href="groceries.png" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Grocery List</title>
 </head>
 
 <body>
+
     <main>
         <div class="container">
-            <div class="groceries">
+            <div class="notebook">
                 <div class="title">
-                    <h1 style="text-align: center;">Grocery List</h1>
-                    <br>
+                    <h1>Grocery List</h1>
                 </div>
-                <div style="text-align: center;" class="input-container">
-                    <i id="pencil" class="fas fa-pencil-alt"></i><input id="userInput" type="text">
+                <div class="input-container">
+                    <i class="fa-solid fa-eraser" id="eraser"></i>
+                    <input type="text" id="userInput">
                 </div>
-                <br>
-                <div id="allItems"></div>
+                <div id="groceryItems"></div>
             </div>
         </div>
     </main>
 
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
