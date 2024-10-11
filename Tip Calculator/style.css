@@ -103,7 +103,13 @@ body{
         width: 85%;
     }
 
+    .calculator button{
+        width: 15%;
+    }
+}
+
+@media(max-width: 320px){
     .calculator input{
-        width: 85%;
+        width: 80%;
     }
 }
