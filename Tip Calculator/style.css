@@ -5,13 +5,33 @@ body{
 }
 
 .container{
-    border: 1px solid black;
-
     width: 95%;
     height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#calculator{
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 400px;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: 100;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+#calculator{
+    box-sizing: border-box;
+    width: 90%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
