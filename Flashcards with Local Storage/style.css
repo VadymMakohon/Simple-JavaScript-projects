@@ -68,7 +68,7 @@ button:hover{
     width: fit-content;
 }
 
-.flashcards{
+#flashcards{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
