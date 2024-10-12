@@ -64,4 +64,55 @@ button:hover{
     border: 1px solid lightgray;
 }
 
-.create-box
+.create-box button{
+    width: fit-content;
+}
+
+.flashcards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.flashcard{
+    width: 370px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flashcard{
+    font-size: 1rem;
+}
+
+@media(max-width:768px){
+    .flashcard{
+        margin: auto;
+    }
+
+    .flashcard{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:480px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .create-box{
+        width: 100%;
+    }
+
+    .flashcard{
+        width: 100%;
+    }
+}
