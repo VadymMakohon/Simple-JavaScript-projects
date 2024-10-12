@@ -19,4 +19,10 @@ header{
 button{
     padding: 8px;
     outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
+
+
