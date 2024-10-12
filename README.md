@@ -8,7 +8,7 @@ This repository is for educational purposes only and has an MIT License
 
 ### Show your support
 
-Give a ⭐ if you like this website!
+Give a ⭐ if you like these projects!
 
 # Contributors
 
