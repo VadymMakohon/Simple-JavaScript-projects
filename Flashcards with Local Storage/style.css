@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
+    font-weight: 200;
     background-color: whitesmoke;
 }
 
-header{
+header {
     background-color: white;
 }
 
-button{
+button {
     padding: 8px;
     outline: none;
     cursor: pointer;
@@ -25,16 +26,20 @@ button{
     background-color: whitesmoke;
 }
 
-button:hover{
+button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.container{
+button:focus {
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.container {
     width: 95%;
     margin: auto;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -43,12 +48,11 @@ button:hover{
     background-color: white;
 }
 
-.nav button{
+.nav button {
     font-family: inherit;
 }
 
-.create-box{
-    width: auto;
+.create-box {
     margin: auto;
     padding: 20px;
     margin-top: 10px;
@@ -57,18 +61,18 @@ button:hover{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
-.create-box textarea{
+.create-box textarea {
     width: 100%;
     border-radius: 5px;
     font-family: inherit;
     border: 1px solid lightgray;
 }
 
-.create-box button{
+.create-box button {
     width: fit-content;
 }
 
-#flashcards{
+#flashcards {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -79,40 +83,33 @@ button:hover{
     padding: 0 10px;
 }
 
-.flashcard{
+.flashcard {
     width: 370px;
     height: 200px;
     word-wrap: break-word;
     margin: 10px;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-
-.flashcard{
     font-size: 1rem;
 }
 
-@media(max-width:768px){
-    .flashcard{
+@media (max-width: 768px) {
+    .flashcard {
         margin: auto;
-    }
-
-    .flashcard{
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
 
-@media(max-width:480px){
-    .nav{
+@media (max-width: 480px) {
+    .nav {
         flex-direction: column;
         align-items: center;
     }
-    .create-box{
-        width: 100%;
-    }
 
-    .flashcard{
-        width: 100%;
+    .create-box,
+    .flashcard {
+        width: 90%;
+        margin: 10px auto;
     }
 }

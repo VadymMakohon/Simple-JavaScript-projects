@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="flashcard.png" />
+    <link rel="shortcut icon" type="png" href="flashcard.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Flashcards</title>
@@ -24,7 +24,7 @@
     </header>
     <div class="container">
         <div class="create-box">
-            <h2 style="text-align: center; color: black">Create Flashcards</h2>
+            <h2>Create Flashcards</h2>
             <label for="question">Question</label>
             <textarea id="question"></textarea>
             <br>
@@ -35,7 +35,8 @@
                 <button onclick="hideCreateBox()">Close</button>
             </div>
         </div>
-        <div class="flashcard"></div>
+        <div id="flashcards" class="flashcards-container">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
