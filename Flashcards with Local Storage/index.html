@@ -11,16 +11,31 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="nav">
-            <h1>Flashcards</h1>
-            <div>
-                <button>New Card</button>
-                <button>Del Cards</button>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <h1>Flashcards</h1>
+                <div>
+                    <button onclick="showCreateCardBox()">New Card</button>
+                    <button onclick="delFlashcards()">Del Cards</button>
+                </div>
             </div>
-
         </div>
-
+    </header>
+    <div class="container">
+        <div class="create-box">
+            <h2 style="text-align: center; color: black">Create Flashcards</h2>
+            <label for="question">Question</label>
+            <textarea id="question"></textarea>
+            <br>
+            <label for="answer">Answer</label>
+            <textarea id="answer"></textarea>
+            <div>
+                <button onclick="addFlashcard()">Save</button>
+                <button onclick="hideCreateBox()">Close</button>
+            </div>
+        </div>
+        <div></div>
     </div>
     <script src="script.js"></script>
 </body>
