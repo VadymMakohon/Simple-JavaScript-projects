@@ -25,4 +25,43 @@ button{
     background-color: whitesmoke;
 }
 
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.nav button{
+    font-family: inherit;
+}
+
+.create-box{
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.create-box textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: inherit;
+    border: 1px solid lightgray;
+}
+
+.create-box
