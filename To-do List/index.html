@@ -11,17 +11,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="nav">
-            <h2><i class="fas fa-clipboard-check"></i>To-do List</h2>
-            <div class="user-input">
-                <input type="text"><button onclick="addItem()">Submit</button>
+
+    <main>
+        <header>
+            <div class="container">
+                <div id="header">
+                    <h2><i class="fas fa-clipboard-check"></i>To-do List</h2>
+                    <div class="user_input">
+                        <input type="text" id="input" placeholder="I need to..."><button id="add_item">Submit</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="to-do-items"></div>
-    </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <div id="to_do_list"></div>
+            </div>
+        </section>
+    </main>
+
     <script src="script.js"></script>
 </body>
 
