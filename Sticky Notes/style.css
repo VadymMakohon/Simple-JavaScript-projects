@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background: #c68c53a8;
+    font-family: Architects Daughter;
+    font-size: 24px;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+    
+}
