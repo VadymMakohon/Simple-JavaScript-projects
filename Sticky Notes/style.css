@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #c68c53a8;
+    background: #8a6d50a8;
     font-family: Architects Daughter;
     font-size: 24px;
 }
@@ -12,5 +12,24 @@ body{
 .main-container{
     width: 95%;
     margin: auto;
-    
 }
+
+.container1{
+    margin-left: 5%;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.comtainer3{
+    /* display: none; */
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
