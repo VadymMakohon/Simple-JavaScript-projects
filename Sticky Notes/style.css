@@ -1,11 +1,11 @@
 *{
-    padding: 0%;
+    padding: 0; 
     margin: 0;
 }
 
 body{
     background: #8a6d50a8;
-    font-family: Architects Daughter;
+    font-family: 'Architects Daughter', cursive; 
     font-size: 24px;
 }
 
@@ -26,7 +26,7 @@ body{
     margin-left: 5%;
 }
 
-.comtainer3{
+.container3{
     /* display: none; */
     position: absolute;
     top: 26%;
@@ -42,15 +42,13 @@ textarea{
     padding: 40px 25px 25px 25px;
 }
 
-
-
 @media(max-width:1280px){
-    .container{
+    .main-container{
       width: 100%;
     }
-  }
+}
   
-  @media(max-width:768px){
+@media(max-width:768px){
     #header{
       padding: 20px;
       gap: 10px;
@@ -58,4 +56,4 @@ textarea{
       align-items: center;
       text-align: center;
     }
-  }
+}
