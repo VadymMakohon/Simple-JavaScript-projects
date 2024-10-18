@@ -42,6 +42,22 @@ textarea{
     padding: 40px 25px 25px 25px;
 }
 
+svg{
+    color: gray;
+}
+
+#check-icon{
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
 @media(max-width:1280px){
     .main-container{
       width: 100%;
