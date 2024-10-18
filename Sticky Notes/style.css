@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #8a6d50a8;
+    background: #c5e208a8;
     font-family: 'Architects Daughter'; 
     font-size: 24px;
 }
@@ -38,7 +38,7 @@ textarea{
     outline: none;
     border: none;
     width: 275px;
-    height: 295px;
+    height: 275px;
     padding: 40px 25px 25px 25px;
 }
 
@@ -46,16 +46,26 @@ svg{
     color: gray;
 }
 
-#check-icon{
+.icon-container {
     position: absolute;
-    right: 7%;
     top: 4%;
+    right: 5%;
+    display: flex; 
+    gap: 10px; 
 }
 
-#x-icon{
-    position: absolute;
-    right: 5%;
-    top: 4%;
+.check-icon,
+.x-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
+
+.check-icon:hover,
+.x-icon:hover {
+    color: #000;
 }
 
 @media(max-width:1280px){
