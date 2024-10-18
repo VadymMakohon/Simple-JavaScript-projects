@@ -1,5 +1,3 @@
-const { createNativeStackNavigator } = require("@react-navigation/native-stack");
-
 var container2 = document.getElementsByClassName("container2")[0];
 var container3 = document.getElementsByClassName("container3")[0];
 var checkIcon = document.getElementById("check-icon");
@@ -15,5 +13,21 @@ checkIcon.addEventListener("click", function () {
 })
 
 function typeNote() {
+
+}
+
+function createNote() {
+
+}
+
+function margin() {
+    var random_margin
+}
+
+function rotate() {
+
+}
+
+function color() {
 
 }
