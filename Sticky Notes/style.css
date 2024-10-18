@@ -5,7 +5,7 @@
 
 body{
     background: #8a6d50a8;
-    font-family: 'Architects Daughter', cursive; 
+    font-family: 'Architects Daughter'; 
     font-size: 24px;
 }
 
@@ -38,7 +38,7 @@ textarea{
     outline: none;
     border: none;
     width: 275px;
-    height: 275px;
+    height: 295px;
     padding: 40px 25px 25px 25px;
 }
 
@@ -48,7 +48,7 @@ svg{
 
 #check-icon{
     position: absolute;
-    right: 17%;
+    right: 7%;
     top: 4%;
 }
 
