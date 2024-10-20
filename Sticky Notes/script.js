@@ -21,7 +21,9 @@ function createNote() {
 }
 
 function margin() {
-    var random_margin
+    var random_margin = ["-5px", "1px", "5px", "10px", "15px", "20px"];
+
+    return random_margin[Math.floor(Math.random() * random_margin.)]
 }
 
 function rotate() {
