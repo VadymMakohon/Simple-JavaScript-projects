@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 *{
-   padding: 0;
-   margin: 0; 
+  padding: 0;
+  margin: 0;
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #E6E6EA;
 }
