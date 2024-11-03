@@ -9,3 +9,8 @@ body{
   font-family: 'Luckiest Guy', cursive;
   background-color: #E6E6EA;
 }
+
+.container{
+  padding: 20px;
+  background-color: #E6E6EA;
+}
