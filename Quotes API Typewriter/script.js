@@ -4,6 +4,8 @@ var textPosition = 0;
 var flag = true;
 var destination = document.getElementById("typedtext");
 
+window.addEventListener('load', typewriter);
+
 function loadQuote() {
     const url = "https://api.quotable.io/random";
 
