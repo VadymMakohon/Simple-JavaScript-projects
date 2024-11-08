@@ -11,7 +11,7 @@ document.getElementsByClassName("fab fa-youtube")[2].addEventListener("click", (
 });
 
 document.getElementsByClassName("article")[0].addEventListener("click", () => {
-    window.open("https://iamcodefoxx.github.io/Weather-App/");
+    window.open("https://vadymmakohon.github.io/Weather-App/");
 });
 
 document.getElementsByClassName("article")[1].addEventListener("click", () => {
