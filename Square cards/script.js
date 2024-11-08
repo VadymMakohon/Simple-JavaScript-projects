@@ -6,18 +6,18 @@ document.getElementsByClassName("fab fa-youtube")[1].addEventListener("click", (
     window.open("https://www.youtube.com/watch?v=wtqbOFYivxw");
 });
 
-document.getElementsByClassName("fab fa-youtube")[2].addEventListener("click", () => {
-    window.open("https://www.youtube.com/watch?v=H5tuwAO-_Kg");
-});
-
 document.getElementsByClassName("article")[0].addEventListener("click", () => {
-    window.open("https://vadymmakohon.github.io/Weather-App/");
+    window.open("https://vadymmakohon.github.io/to-do-list-app/");
 });
 
 document.getElementsByClassName("article")[1].addEventListener("click", () => {
-    window.open("https://iamcodefoxx.github.io/Quiz-App/");
+    window.open("https://vadymmakohon.github.io/Weather-App/");
 });
 
 document.getElementsByClassName("article")[2].addEventListener("click", () => {
+    window.open("https://iamcodefoxx.github.io/Quiz-App/");
+});
+
+document.getElementsByClassName("article")[3].addEventListener("click", () => {
     window.open("https://iamcodefoxx.github.io/Marvel-API/");
 });
