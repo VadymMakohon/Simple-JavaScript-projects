@@ -1,6 +1,6 @@
-var timeBegan = null; // did the clock start?
-var timeStopped = null; // at what time was the timer stopped?
-var stoppedDuration = 0; // how long was the timer stopped?
+var timeBegan = null;
+var timeStopped = null;
+var stoppedDuration = 0;
 var startInterval = null; // this is needed to stop the startInterval()
 var flag = false; // to controll the start/stop of the timer
 
