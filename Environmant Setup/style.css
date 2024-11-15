@@ -8,6 +8,11 @@ body{
     position: relative;
 }
 
+nav{
+   background-color: #2d4c50;
+   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+}
+
 .navbar{
    display: flex;
    justify-content: space-between;
