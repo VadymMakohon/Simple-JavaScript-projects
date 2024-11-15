@@ -4,18 +4,18 @@ const blogContainer = document.getElementById("blog-container");
 
 async function fetchRandomNews() {
     try {
-        const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apikey=${apiKey}`;
+        const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${apiKey}`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         return data.articles;
     } catch (error) {
         console.error("Error fetching random news", error);
-        return []
+        return [];
     }
 }
 
 function displayBlogs(articles) {
-    blogContainer.innerHTML = ""
+    blogContainer.innerHTML = " "
     articles.forEach((article) => {
         const blogCard = document.createElement("div");
         blogCard.classList.add("blog-card");
