@@ -8,6 +8,13 @@ body{
     position: relative;
 }
 
+/* Global CSS */
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+
+} 
+
 nav{
    background-color: #2d4c50;
    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
@@ -48,5 +55,9 @@ nav{
 }
 
 #bolg-container{
-    
+    padding:  3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
 }
