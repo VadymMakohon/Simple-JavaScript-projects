@@ -20,7 +20,7 @@ nav{
    padding: 1.3rem 0;
 }
 
-.navbar .Logo{
+.navbar .logo{
     color: #fff;
     text-decoration: none;
     letter-spacing: 2px;
@@ -45,4 +45,8 @@ nav{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+#bolg-container{
+    
 }
