@@ -19,3 +19,10 @@ nav{
    align-items: center;
    padding: 1.3rem 0;
 }
+
+.navbar .Logo{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+}
